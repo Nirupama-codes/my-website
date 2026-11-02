@@ -1,432 +1,420 @@
-# # a = 10
-# # b = 10.5
-# # c = "10"
-# # d = True
-# # print(type(a))
-# # print(type(b))
-# # print(type(c))
-# # print(type(d))
+a = 10
+b = 10.5
+c = "10"
+d = True
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
 
-# # create variable
-# # studentname = "Nirupama"
-# # studentage = 19
-# # course = "AIPA"
-# # percentage = 85.5
-# # passed = True
-# # print(studentname)
-# # print(type(studentname))
-# # print(studentage)
-# # print(type(studentage))
-# # print(percentage)
-# # print(type(percentage))
-# # print(passed)
-# # print(type(passed))
+create variable
+studentname = "Nirupama"
+studentage = 19
+course = "AIPA"
+percentage = 85.5
+passed = True
+print(studentname)
+print(type(studentname))
+print(studentage)
+print(type(studentage))
+print(percentage)
+print(type(percentage))
+print(passed)
+print(type(passed))
 
-# # employee data 
-# # employee_id = 102
-# # employee_name = "Ragini"
-# # salary = 35000.50
-# # department = "sales"
-# # is_active = True
-# # print(employee_id)
-# # print(type(employee_id))
-# # print(employee_name)
-# # print(type(employee_name))
-# # print(salary)
-# # print(type(salary))
-# # print(department)
-# # print(type(department))
-# # print(is_active)
-# # print(type(is_active))
+employee data 
+employee_id = 102
+employee_name = "Ragini"
+salary = 35000.50
+department = "sales"
+is_active = True
+print(employee_id)
+print(type(employee_id))
+print(employee_name)
+print(type(employee_name))
+print(salary)
+print(type(salary))
+print(department)
+print(type(department))
+print(is_active)
+print(type(is_active))
 
-# # list
-# # student_name = ["Priya","Naincy","Nehu","Varu","Vivek"]
-# # print(student_name)
-# # print(student_name[0])
-# # print(student_name[4])
-# # student_name.append("Nayra")
-# # student_name.remove("Nehu")
-# # print(student_name)
+list
+student_name = ["Priya","Naincy","Nehu","Varu","Vivek"]
+print(student_name)
+print(student_name[0])
+print(student_name[4])
+student_name.append("Nayra")
+student_name.remove("Nehu")
+print(student_name)
 
-# # tupple
+tupple
 
-# # months = ("january","march ","may","july","sepetember")
-# # print("months")
-# # print(months[0])
-# # print(months[4])
-# # print(len(months))
+months = ("january","march ","may","july","sepetember")
+print("months")
+print(months[0])
+print(months[4])
+print(len(months))
 
-# # dictionary
+dictionary
 
-# # student={
-# #     "name":"ajjet",
-# #     "age":24,
-# #     "course":"AIPA",
-# #     "marks":80.5,
-# #     "city":"MAU"
-# # }
-# # print(student["name"])
-# # print(student["marks"])
-# # student["marks"] = 90
-# # student["gender"]="Male"
-# # print(student)
-
-
+student={
+    "name":"ajjet",
+    "age":24,
+    "course":"AIPA",
+    "marks":80.5,
+    "city":"MAU"
+}
+print(student["name"])
+print(student["marks"])
+student["marks"] = 90
+student["gender"]="Male"
+print(student)
 
 
 
 
-# # python opretors
-# # Arithmetic Operators
 
-# # a=10
-# # b=3
-# # print(a+b)
-# # print(a-b)
-# # print(a*b)
-# # print(a/b)
-# # print(a%b)
-# # print(a//b)
-# # print(a**b)
 
-# # assignment operator
+python opretors
+Arithmetic Operators
 
-# # x=50
+a=10
+b=3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+print(a**b)
 
-# # x += 10
-# # x -= 10
-# # x *= 10
-# # # x /= 10
-# # x //= 10
-# # x %= 10
-# # print(x)
+assignment operator
 
-# # comparison operators
+x=50
 
-# # age=int(input("enter your age !"))
-# # if age <=18:
-# #     print("eligible for vote!")
-# # else:
-# #     print("not eligible for vote")
+x += 10
+x -= 10
+x *= 10
+# x /= 10
+x //= 10
+x %= 10
+print(x)
 
-# # x=5
-# # y=4
+comparison operators
 
-# # if x >= y:  
-# # print("x is greater")
-# # else:
-# # print("invalid")
+age=int(input("enter your age !"))
+if age <=18:
+    print("eligible for vote!")
+else:
+    print("not eligible for vote")
 
-# # marks=100
-# # print(marks <=40)
-# # if marks  >=30:
-# #     print("pass")
-# # else:
-# #     print("fail")
+x=5
+y=4
+
+if x >= y:  
+print("x is greater")
+else:
+print("invalid")
+
+marks=100
+print(marks <=40)
+if marks  >=30:
+    print("pass")
+else:
+    print("fail")
  
-# # print(marks <=99)
-# # if marks >=56:
-# #     print("pass")
-# # else:
-# #     print("fail")
+print(marks <=99)
+if marks >=56:
+    print("pass")
+else:
+    print("fail")
 
 
-# # a=10
-# # b=40
+# a=10
+# b=40
 
-# # if a >= b:
-# #     print("both are equal")
-# # else:
-# #     print("b is greater")
+# if a >= b:
+#     print("both are equal")
+# else:
+#     print("b is greater")
 
-# # a = int(input("enter first no.:"))
-# # b = int(input("enter second no.:"))
+# a = int(input("enter first no.:"))
+# b = int(input("enter second no.:"))
 
-# # if a > b:
-# #     print("first number is greater.")
-# # elif b > a:
-# #     print("second number is greter.")
-# # else:
-# #     print("both are equal.")
+# if a > b:
+#     print("first number is greater.")
+# elif b > a:
+#     print("second number is greter.")
+# else:
+#     print("both are equal.")
 
-# # password="niru@1234"
+# password="niru@1234"
 
-# # enter=input("Enter your password:")
-# # if password == enter:
-# #     print("login successfully")
-# # else:
-# #     print("invalid password")
+# enter=input("Enter your password:")
+# if password == enter:
+#     print("login successfully")
+# else:
+#     print("invalid password")
 
 
-# # marks=int(input("enter your marks"))
-# # if marks >= 90:
-# #     print("excellent")
-# # elif marks >= 75:
-# #     print("very good")
-# # elif marks >= 60:
-# #     print("good")
-# # elif marks >= 40:
-# #     print("pass")
-# # else:
-# #     ("fail")            
+# marks=int(input("enter your marks"))
+# if marks >= 90:
+#     print("excellent")
+# elif marks >= 75:
+#     print("very good")
+# elif marks >= 60:
+#     print("good")
+# elif marks >= 40:
+#     print("pass")
+# else:
+#     ("fail")            
 
-# control flow
+control flow
 
-# for s in range(6):
-#     print(s)
+for s in range(6):
+    print(s)
 
-# for i in range(2,20):
-#     print(i)
+for i in range(2,20):
+    print(i)
 
-# for e in range(1,6):
-#     print(e)
+for e in range(1,6):
+    print(e)
 
-# for t in range (3,10,3):
-#     print(t)
+for t in range (3,10,3):
+    print(t)
 
-# sum of numbers between 1 to 10
+sum of numbers between 1 to 10
 
-# total=0
-# for i in range (1,501):
-#     total +=i
-# print(total)
+total=0
+for i in range (1,501):
+    total +=i
+print(total)
 
-# square
+square
 
-# for x in range (2,20):
-#     print(x**3)
+for x in range (2,20):
+    print(x**3)
 
-# reverse
+reverse
 
-# for i in range (10,0,-1):
-#     print(i)
+for i in range (10,0,-1):
+    print(i)
 
-# # count=0
-
-# for i in range (1,101):
-#     if i % 7==0:
-#         count +=1
-#         if i == 35:
-#             break
-# print (count)
-
-# question
-# num=int(input("enter the number:"))
-# for i in range (1,11):
-#      print(num,"x" , i , "=",num *i)
-
-# employee salary
-
-# salaries=[10000,20500,65000,20000,85000]
-# for salary in salaries:
-#     print("monthly salary:",salary)
-
-# attendance=["present", "absent", "present", "present","absent"]
 # count=0
-# for status in attendance:
-#     if status == "present":
-#         count += 1
-#         if status == "absent":
-#             count +=1
-#         print("total absent:",count)
 
-# sale report
+for i in range (1,101):
+    if i % 7==0:
+        count +=1
+        if i == 35:
+            break
+print (count)
 
-# sales = [1200, 1500, 1000, 1800, 1700, 1300]
-# total = 0
-# for amount in sales:
-#  total +=amount
-#  average = total / 7
-# print("total sales:",total)
-# print ("average sales:",average)
+question
+num=int(input("enter the number:"))
+for i in range (1,11):
+     print(num,"x" , i , "=",num *i)
 
-# bonus calculation
-# salaries = [25000, 30000, 28000, 35000, 40000]
+employee salary
 
-# for salary in salaries:
-#     bonus = salary * 0.10
-#     print("Salary:", salary, "Bonus:", bonus)
-# Inventory Check
-# items = [
-#     ("Pen", 25),
-#     ("Notebook", 7),
-#     ("Pencil", 15),
-#     ("Eraser", 5),
-#     ("Marker", 9)
-# ]
+salaries=[10000,20500,65000,20000,85000]
+for salary in salaries:
+    print("monthly salary:",salary)
 
-# for item, quantity in items:
-#     if quantity < 10:
-#         print("Low Stock:", item, "-", quantity)
-# Project Hours
-# hours = [8, 7, 9, 6, 8]
+attendance=["present", "absent", "present", "present","absent"]
+count=0
+for status in attendance:
+    if status == "present":
+        count += 1
+        if status == "absent":
+            count +=1
+        print("total absent:",count)
 
-# total_hours = 0
+sale report
 
-# for h in hours:
-#     total_hours += h
+sales = [1200, 1500, 1000, 1800, 1700, 1300]
+total = 0
+for amount in sales:
+ total +=amount
+ average = total / 7
+print("total sales:",total)
+print ("average sales:",average)
 
-# print("Total Project Hours:", total_hours)
+bonus calculation
+salaries = [25000, 30000, 28000, 35000, 40000]
 
-# email List
-# emails = [
-#     "rahul@gmail.com",
-#     "priya@gmail.com",
-#     "amit@gmail.com",
-#     "neha@gmail.com",
-#     "rohan@gmail.com"
-# ]
+for salary in salaries:
+    bonus = salary * 0.10
+    print("Salary:", salary, "Bonus:", bonus)
+Inventory Check
+items = [
+    ("Pen", 25),
+    ("Notebook", 7),
+    ("Pencil", 15),
+    ("Eraser", 5),
+    ("Marker", 9)
+]
 
-# for email in emails:
-#     print(email)
+for item, quantity in items:
+    if quantity < 10:
+        print("Low Stock:", item, "-", quantity)
+Project Hours
+hours = [8, 7, 9, 6, 8]
 
-# Performance Rating
-# scores = [95, 82, 68, 91, 75]
+total_hours = 0
 
-# for score in scores:
-#     if score >= 90:
-#         print("Excellent")
-#     elif score >= 70:
-#         print("Good")
-#     else:
-#         print("Needs Improvement")
+for h in hours:
+    total_hours += h
 
-# nested loop
-# for i in range (1,4):
-#     for j in range (1,3):
-#         print("outer loop:",i,"inner loop:",j)
+print("Total Project Hours:", total_hours)
 
-# for r in range (1,5):
-#     for c in range (1,6):
-#         print("*",end=" ")
-#     print()
+email List
+emails = [
+    "rahul@gmail.com",
+    "priya@gmail.com",
+    "amit@gmail.com",
+    "neha@gmail.com",
+    "rohan@gmail.com"
+]
 
-# for r in range (1,5):
-#     for c in range (r):
-#         print("*",end="")
-#     print()
+for email in emails:
+    print(email)
 
-# reverse
-# for r in range (5,0,-1):
-#     for c in range (r):
-#         print("*",end="")
-#     print ()
+Performance Rating
+scores = [95, 82, 68, 91, 75]
 
-# for r in range (1,6):
-#     for c in range (1,r+1):
-#         print(c,end="")
-#     print()
+for score in scores:
+    if score >= 90:
+        print("Excellent")
+    elif score >= 70:
+        print("Good")
+    else:
+        print("Needs Improvement")
 
-# for r in range  (1,6):
-#     for c in range (1,6):
-#         print(r,end="")
-#     print()
+nested loop
+for i in range (1,4):
+    for j in range (1,3):
+        print("outer loop:",i,"inner loop:",j)
+
+for r in range (1,5):
+    for c in range (1,6):
+        print("*",end=" ")
+    print()
+
+for r in range (1,5):
+    for c in range (r):
+        print("*",end="")
+    print()
+
+reverse
+for r in range (5,0,-1):
+    for c in range (r):
+        print("*",end="")
+    print ()
+
+for r in range (1,6):
+    for c in range (1,r+1):
+        print(c,end="")
+    print()
+
+for r in range  (1,6):
+    for c in range (1,6):
+        print(r,end="")
+    print()
  
 
-# for num in range (2,11):
-#     print ("multiplication of:",num)
-# for multiply in range (1,11):
-#         print (num,"*",multiply,"=",num * multiply)
+for num in range (2,11):
+    print ("multiplication of:",num)
+for multiply in range (1,11):
+        print (num,"*",multiply,"=",num * multiply)
     
 
-# question
+question
 
-# rectangle pattern
-# for i in range (1,5):
-#     for j in range (1,7):
-#         print("*",end="")
-#     print() 
+rectangle pattern
+for i in range (1,5):
+    for j in range (1,7):
+        print("*",end="")
+    print() 
     
-# increasing triangle
+increasing triangle
 
 
-# for r in range (1,8):
-#     for c in range (r):
-#         print("*",end="")
-#     print()
+for r in range (1,8):
+    for c in range (r):
+        print("*",end="")
+    print()
 
-# number square
+number square
 
-# for i in range (4):
-#     for j in range (1,5):
-#         print(j, end="")
-#     print()    
+for i in range (4):
+    for j in range (1,5):
+        print(j, end="")
+    print()    
 
-# multiplication tables
-
-
-# for num in range(2, 11):
-#     print("Multiplication of:", num)
-
-#     for multiply in range(1, 11):
-#         print(num, "*", multiply, "=", num * multiply)
-
-#     print("-------------------------")
-
-# classroom seating
-
-# for r in range (1,6):
-#     print("Row:",r)
-#     for seat in range (1,9):
-#         print("seat",r,"-",seat)
-#     for r in range (1,5):
-#      for seat in range (1,9):
-#         print(r,"=",seat)
-
-# prim enumbers
+multiplication tables
 
 
-# for num in range(2, 51):
-#     count = 0
+for num in range(2, 11):
+    print("Multiplication of:", num)
 
-#     for i in range(1, num + 1):
-#         if num % i == 0:
-#             count += 1
+    for multiply in range(1, 11):
+        print(num, "*", multiply, "=", num * multiply)
 
-#     if count == 2:
-#         print(num)
+    print("-------------------------")
+
+classroom seating
+
+for r in range (1,6):
+    print("Row:",r)
+    for seat in range (1,9):
+        print("seat",r,"-",seat)
+    for r in range (1,5):
+     for seat in range (1,9):
+        print(r,"=",seat)
+
+prim enumbers
 
 
-# pattern challeges
+for num in range(2, 51):
+    count = 0
+
+    for i in range(1, num + 1):
+        if num % i == 0:
+            count += 1
+
+    if count == 2:
+        print(num)
 
 
-# for row in range(1, 6):
-#     for space in range(5 - row):
-#         print(" ", end="")
+pattern challeges
 
-#     for star in range(2 * row - 1):
-#         print("*", end="")
 
-#     print()
+for row in range(1, 6):
+    for space in range(5 - row):
+        print(" ", end="")
 
-# # WHILE LOOP
+    for star in range(2 * row - 1):
+        print("*", end="")
 
-# # i=1
-# # while i <= 10:
-# #     print(i)
-# #     i +=1
+    print()
+
+WHILE LOOP
+
+i=1
+while i <= 10:
+    print(i)
+    i +=1
     
-# # even number b/t 1 to 20 
-# i=2
-
-# # while i <= 20:
-# #     if i == 12:
-# #        i += 2
-# #        continue
-# #     print(i)
-# #     i += 2
-    
-#     # calculator program
-
-# # print("my calculator !")
-# # print("type 'exit' to quit")
-# # while True:
-# #     op=input("enter opretion (+,-,*,/ or exit):")
-# #     if op == "exit":
-# #        print("Calculator closed!")
-# #     break
-# # num1=float(input("enter first number:"))
-# # num2=float(input("entr second number:"))
+# #//
+# print("type 'exit' to quit")
+# while True:
+#     op=input("enter opretion (+,-,*,/ or exit):")
+#     if op == "exit":
+#        print("Calculator closed!")
+#     break
+# num1=float(input("enter first number:"))
+# num2=float(input("entr second number:"))
 
 # # if op == "+":
 # #     print(num1,"+",num2,"=",num1+num2)
